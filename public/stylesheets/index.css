@@ -1,0 +1,57 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+.banner{
+  width:100%;
+  height:400px;
+  background-image:url("/images/260_5236.JPG");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left:10%;
+  padding-right:10%;
+}
+
+.banner .info{
+  border:1px solid blue;
+  width: 40%;
+}
+
+.banner .login{
+  border:1px solid red;
+  width: 40%;
+}
+
+.room{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box{
+  width: 30%;
+}
+
+.img img{
+  width: 100%;
+}
+
+.generos{
+  width:100%;
+  display: flex;
+  justify-content:space-between;
+}
+
+.lectura, .practica, .videos{
+  width:25%;
+}
+
+.lectura img, .practica img, .videos img{
+  width:100%;
+}
